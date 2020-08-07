@@ -1,6 +1,6 @@
 # Randomizer-Module
 ### Design Specification 
-• Using a linear feedback shift register (LFSR), design a pseudorandom binary sequence (PRBS) generator that implements the polynomial 15 14 1 X X + + shown in Figure 1 which is used to randomize a sequence of binary inputs. 
+• Using a linear feedback shift register (LFSR), design a pseudorandom binary sequence (PRBS) generator that implements the polynomial ![equation](https://latex.codecogs.com/gif.latex?1%20&plus;%20X%5E%7B14%7D%20&plus;%20X%5E%7B15%7D) which is used to randomize a sequence of binary inputs. 
 
 • The randomizer is initialized with the vector: 
 o [LSB] 0 1 1 0 1 1 1 0 0 0 1 0 1 0 1 [MSB]. 
